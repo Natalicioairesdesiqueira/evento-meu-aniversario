@@ -3,12 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>meu aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
-    <h1>Olá Mundo</h1>
-    <img src="./images/an-uplifting-image-capturing-the-vibrant-celebratory-ambiance-of-a-birthday-party-swirling-balloon (1).jpeg" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo for a birthday party of Natalicio.png" alt="logo meu aniversario">
+            <p class="hero__text">
+                VAMOS COMEMORAR MEU ANIVERSARIO EM <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        RUA DO CAMINHO - KURTZ - SAO SEPE
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        totalmente gratuito
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        04/02/2025 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta o seu lugar
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">convite para o meu aniversario</h2>
+                <p class="event__details__description">
+                    Para o seu aniversário, criar um tema especial pode deixar a celebração ainda mais memorável! Uma festa personalizada reflete seus gostos e interesses, seja com uma paleta de cores única, um estilo específico ou uma inspiração especial. Desde a decoração até o bolo e as atividades, o tema pode envolver todos os detalhes, dando um toque pessoal e criativo. É uma ótima forma de tornar o momento divertido e acolhedor, seja para uma celebração intimista ou para uma festa mais grandiosa, fazendo com que todos entrem no clima e aproveitem ao máximo o evento.
+                </p>
+            </div>
+            <img class="event__image" src="./images/logo for a birthday party of Natalicio.png" alt="festa de aniversario">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">o que esperar</h2>
+                <p class="event__details__description">
+                    Com um tema especial para o seu aniversário, pode-se esperar uma celebração que vai além do comum, cheia de personalidade e detalhes cuidadosamente planejados. Cada elemento, desde a decoração até as atividades, será pensado para criar um ambiente que reflita seu estilo e preferências, garantindo uma experiência imersiva e única para você e seus convidados. As expectativas podem incluir uma atmosfera que vai desde o descontraído ao sofisticado, dependendo do tema, com surpresas e momentos memoráveis que tornam o evento ainda mais especial. Esse planejamento permite que cada convidado se sinta parte de uma ocasião verdadeiramente personalizada, onde o protagonista da festa é, claro, você!
+                </p>
+            </div>
+            <img class="event__image" src="./images/an-uplifting-image-capturing-the-vibrant-celebratory-ambiance-of-a-birthday-party-swirling-balloon (1).jpeg" alt="UI/UX">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Histórias e Memórias Compartilhadas</h2>
+                <p class="event__details__description">
+                    Inclua um momento para relembrar momentos especiais e histórias divertidas com os amigos e familiares presentes. Você pode criar um espaço com fotos de diferentes fases da sua vida, onde cada imagem remeta a uma memória com alguém da festa. Isso torna o ambiente mais íntimo e emocional, reforçando as conexões e proporcionando momentos nostálgicos e alegres.
+                </p>
+            </div>
+            <img class="event__image" src="./images/an-uplifting-image-capturing-the-vibrant-celebratory-ambiance-of-a-birthday-party-swirling-balloon (2).jpeg" alt="Data Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left"> 
+            <div class="event__details">
+                <h2 class="event__details__title">Planos e Sonhos para o Futuro</h2>
+                <p class="event__details__description">
+                    Um aniversário é uma ótima oportunidade para refletir sobre o que vem pela frente. Que tal um espaço onde você possa compartilhar alguns dos seus planos, sonhos e metas? Pode ser de maneira descontraída ou até interativa, com os convidados escrevendo desejos para o seu próximo ano. Essa atividade envolve as pessoas que fazem parte da sua jornada e traz um toque inspirador para a celebração.
+                </p>
+            </div>
+            <img class="event__image" src="./images/an-uplifting-image-capturing-the-vibrant-celebratory-ambiance-of-a-birthday-party-swirling-balloon.jpeg" alt="Back-end">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container"> 
+            <p class="footer__text">
+                Desenvolvido por Natalicio aires de siqueira - 2024
+            </p>
+            <div class="footer__social-icons">
+                <a href="https://github.com/Natalicioairesdesiqueira" target="https://github.com/Natalicioairesdesiqueira">
+                    <img src="./images/25231.png" alt="github">
+                </a>
+                <a href="https://www.instagram.com/n4taal/?hl=en" target="https://www.instagram.com/n4taal/?hl=en">
+                    <img src="./images/isnta dourado.jpg" alt="Instagram">
+                </a>                
+            </div>
+        </div>
+    </footer>   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
